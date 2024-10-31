@@ -1,0 +1,76 @@
+body {
+  background-image: url("https://master.opitec.com/out/pictures/master/product/1/512345-000-000-VO-02-z.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.title-login {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(75, 143, 231);
+}
+.form-container {
+  margin: 30px auto;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 10px;
+  border: 3px solid rgba(88, 72, 72, 0.281);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(75, 143, 231);
+  gap: 8px;
+  width: 90%;
+  border: 0px auto;
+}
+.input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.button1 {
+  margin-top: 6px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(75, 143, 231);
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.button2 {
+  margin-top: 7px;
+  font-size: 14px;
+  padding: 9px 16px;
+  background-color: rgb(75, 143, 231);
+  font-weight: bold;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(66, 4, 4);
+}
+
+@media (max-width: 700px) {
+  .form-container {
+    width: 90%;
+  }
+}

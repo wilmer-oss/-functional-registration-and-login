@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="login.js" defer></script>
+    <title>login</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="form-container"
+        data-tilt
+        data-tilt-glare
+        data-tilt-max-glare="0.8"
+      >
+        <h6 class="title-login">Inicia Sesión</h6>
+        <form class="form">
+          <label for="email">email</label>
+          <input
+            type="text"
+            placeholder="email"
+            name="email"
+            class="input"
+            required
+          />
+          <label for="password">password</label>
+          <input
+            type="password"
+            placeholder="Contraseña"
+            name="password"
+            class="input"
+            required
+          />
+          <button class="button1">Iniciar Sesión</button>
+          <p class="error"></p>
+          <p class="success"></p>
+        </form>
+        <span>¿No tienes cuenta?</span
+        ><a href="/register"><button class="button2">Registrate</button></a>
+      </div>
+    </main>
+    <script src="plugins.js"></script>
+  </body>
+</html>

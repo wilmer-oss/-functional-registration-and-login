@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="register.js" defer></script>
+    <title>register</title>
+  </head>
+  <body>
+    <main>
+      <div
+        class="form-container"
+        data-tilt
+        data-tilt-glare
+        data-tilt-max-glare="0.8"
+      >
+        <h6 class="title-login">Registrate</h6>
+        <form class="form">
+          <label for="username">username</label>
+          <input
+            type="text"
+            placeholder="Username"
+            name="username"
+            class="input"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            class="input"
+            placeholder="Email"
+            name="email"
+            required
+          />
+          <label for="password">password</label>
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            class="input"
+            required
+          />
+          <button class="button1">Registrate</button>
+          <p class="success"></p>
+          <p class="error"></p>
+        </form>
+        <span>¿Ya tienes cuenta?</span
+        ><a href="/"><button class="button2">Iniciar Sesion</button></a>
+      </div>
+    </main>
+    <script src="plugins.js"></script>
+  </body>
+</html>
